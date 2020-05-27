@@ -13,6 +13,13 @@
 		372F0C07247E5E35001A9416 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372F0C06247E5E35001A9416 /* Assets.xcassets */; };
 		372F0C0A247E5E35001A9416 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372F0C09247E5E35001A9416 /* Preview Assets.xcassets */; };
 		372F0C0D247E5E35001A9416 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372F0C0B247E5E35001A9416 /* LaunchScreen.storyboard */; };
+		372F0C15247E6136001A9416 /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F0C14247E6136001A9416 /* BluetoothView.swift */; };
+		372F0C17247E616F001A9416 /* BluetoothToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F0C16247E616F001A9416 /* BluetoothToggleView.swift */; };
+		372F0C19247E61BF001A9416 /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F0C18247E61BF001A9416 /* Condition.swift */; };
+		372F0C1B247E624A001A9416 /* LoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F0C1A247E624A001A9416 /* LoadingIndicator.swift */; };
+		372F0C1D247E62F8001A9416 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F0C1C247E62F8001A9416 /* Option.swift */; };
+		372F0C1F247E6429001A9416 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F0C1E247E6429001A9416 /* SettingsView.swift */; };
+		372F0C21247E6541001A9416 /* WiFiSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F0C20247E6541001A9416 /* WiFiSettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		372F0C09247E5E35001A9416 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		372F0C0C247E5E35001A9416 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		372F0C0E247E5E35001A9416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372F0C14247E6136001A9416 /* BluetoothView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		372F0C16247E616F001A9416 /* BluetoothToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothToggleView.swift; sourceTree = "<group>"; };
+		372F0C18247E61BF001A9416 /* Condition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+		372F0C1A247E624A001A9416 /* LoadingIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicator.swift; sourceTree = "<group>"; };
+		372F0C1C247E62F8001A9416 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		372F0C1E247E6429001A9416 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		372F0C20247E6541001A9416 /* WiFiSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiSettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,13 @@
 				372F0C0B247E5E35001A9416 /* LaunchScreen.storyboard */,
 				372F0C0E247E5E35001A9416 /* Info.plist */,
 				372F0C08247E5E35001A9416 /* Preview Content */,
+				372F0C14247E6136001A9416 /* BluetoothView.swift */,
+				372F0C16247E616F001A9416 /* BluetoothToggleView.swift */,
+				372F0C18247E61BF001A9416 /* Condition.swift */,
+				372F0C1A247E624A001A9416 /* LoadingIndicator.swift */,
+				372F0C1C247E62F8001A9416 /* Option.swift */,
+				372F0C1E247E6429001A9416 /* SettingsView.swift */,
+				372F0C20247E6541001A9416 /* WiFiSettingView.swift */,
 			);
 			path = CreateListMenu;
 			sourceTree = "<group>";
@@ -146,9 +167,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372F0C1D247E62F8001A9416 /* Option.swift in Sources */,
 				372F0C01247E5E31001A9416 /* AppDelegate.swift in Sources */,
+				372F0C19247E61BF001A9416 /* Condition.swift in Sources */,
+				372F0C1F247E6429001A9416 /* SettingsView.swift in Sources */,
 				372F0C03247E5E31001A9416 /* SceneDelegate.swift in Sources */,
+				372F0C1B247E624A001A9416 /* LoadingIndicator.swift in Sources */,
 				372F0C05247E5E31001A9416 /* ContentView.swift in Sources */,
+				372F0C17247E616F001A9416 /* BluetoothToggleView.swift in Sources */,
+				372F0C21247E6541001A9416 /* WiFiSettingView.swift in Sources */,
+				372F0C15247E6136001A9416 /* BluetoothView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
